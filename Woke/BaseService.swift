@@ -1,4 +1,4 @@
-//
+ //
 //  BaseService.swift
 //  Woke
 //
@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import Firebase
+import FirebaseDatabase
+ 
+let BASE_URL = ""
+let FIREBASE_REF = Firebase (url: BASE_URL)
+ 

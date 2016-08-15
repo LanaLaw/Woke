@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09278CC11D60DFCE0054FF95 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09278CC01D60DFCE0054FF95 /* LogInViewController.swift */; };
 		09338F211D5B890B003021F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09338F201D5B890B003021F2 /* AppDelegate.swift */; };
 		09338F231D5B890B003021F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09338F221D5B890B003021F2 /* ViewController.swift */; };
 		09338F261D5B890B003021F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09338F241D5B890B003021F2 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		09338F2B1D5B890B003021F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09338F291D5B890B003021F2 /* LaunchScreen.storyboard */; };
 		09338F361D5B890B003021F2 /* WokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09338F351D5B890B003021F2 /* WokeTests.swift */; };
 		09338F411D5B890B003021F2 /* WokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09338F401D5B890B003021F2 /* WokeUITests.swift */; };
+		097BC6DD1D6202DD00D4EE8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 097BC6DC1D6202DD00D4EE8A /* GoogleService-Info.plist */; };
+		098514671D5D867400BA2BA5 /* SignUpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098514661D5D867400BA2BA5 /* SignUpPageViewController.swift */; };
+		F019635D8124561DA5E5D655 /* Pods_Woke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AD258353EA572810F08DF4 /* Pods_Woke.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09278CC01D60DFCE0054FF95 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		09338F1D1D5B890A003021F2 /* Woke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09338F201D5B890B003021F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09338F221D5B890B003021F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09338F221D5B890B003021F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Woke/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		09338F251D5B890B003021F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09338F271D5B890B003021F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09338F2A1D5B890B003021F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		09338F3C1D5B890B003021F2 /* WokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09338F401D5B890B003021F2 /* WokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WokeUITests.swift; sourceTree = "<group>"; };
 		09338F421D5B890B003021F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		097BC6DC1D6202DD00D4EE8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		098514661D5D867400BA2BA5 /* SignUpPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpPageViewController.swift; sourceTree = "<group>"; };
+		2948129D289E87C146DFE216 /* Pods-Woke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Woke/Pods-Woke.debug.xcconfig"; sourceTree = "<group>"; };
+		43D82D05F10297904976DF6C /* Pods_WokeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AD258353EA572810F08DF4 /* Pods_Woke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Woke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4204A04C80CB67178470CCC /* Pods_WokeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73B5A686A323F6BA7EA60CA /* Pods-Woke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woke.release.xcconfig"; path = "Pods/Target Support Files/Pods-Woke/Pods-Woke.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F019635D8124561DA5E5D655 /* Pods_Woke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,8 @@
 				09338F341D5B890B003021F2 /* WokeTests */,
 				09338F3F1D5B890B003021F2 /* WokeUITests */,
 				09338F1E1D5B890A003021F2 /* Products */,
+				AECD753733941D602F23A14B /* Pods */,
+				5356C37A0821B2BBA8FF3A21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +115,12 @@
 				09338F201D5B890B003021F2 /* AppDelegate.swift */,
 				09338F221D5B890B003021F2 /* ViewController.swift */,
 				09338F241D5B890B003021F2 /* Main.storyboard */,
+				09278CC01D60DFCE0054FF95 /* LogInViewController.swift */,
 				09338F271D5B890B003021F2 /* Assets.xcassets */,
 				09338F291D5B890B003021F2 /* LaunchScreen.storyboard */,
 				09338F2C1D5B890B003021F2 /* Info.plist */,
+				098514661D5D867400BA2BA5 /* SignUpPageViewController.swift */,
+				097BC6DC1D6202DD00D4EE8A /* GoogleService-Info.plist */,
 			);
 			path = Woke;
 			sourceTree = "<group>";
@@ -125,6 +143,25 @@
 			path = WokeUITests;
 			sourceTree = "<group>";
 		};
+		5356C37A0821B2BBA8FF3A21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4204A04C80CB67178470CCC /* Pods_WokeTests.framework */,
+				43D82D05F10297904976DF6C /* Pods_WokeUITests.framework */,
+				A8AD258353EA572810F08DF4 /* Pods_Woke.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AECD753733941D602F23A14B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2948129D289E87C146DFE216 /* Pods-Woke.debug.xcconfig */,
+				D73B5A686A323F6BA7EA60CA /* Pods-Woke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09338F451D5B890B003021F2 /* Build configuration list for PBXNativeTarget "Woke" */;
 			buildPhases = (
+				57A7087F37A65124CF2F6670 /* [CP] Check Pods Manifest.lock */,
 				09338F191D5B890A003021F2 /* Sources */,
 				09338F1A1D5B890A003021F2 /* Frameworks */,
 				09338F1B1D5B890A003021F2 /* Resources */,
+				0ACE4E4E69210D3B2D5B4370 /* [CP] Embed Pods Frameworks */,
+				AFCB65A2F4AB23D3DED43F0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09338F481D5B890B003021F2 /* Build configuration list for PBXNativeTarget "WokeTests" */;
 			buildPhases = (
+				B792E6D15E7B81614F90A991 /* [CP] Check Pods Manifest.lock */,
 				09338F2D1D5B890B003021F2 /* Sources */,
 				09338F2E1D5B890B003021F2 /* Frameworks */,
 				09338F2F1D5B890B003021F2 /* Resources */,
+				D117675543EBCDF8791BC46F /* [CP] Embed Pods Frameworks */,
+				6891E115D456352FA3D5880E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09338F4B1D5B890B003021F2 /* Build configuration list for PBXNativeTarget "WokeUITests" */;
 			buildPhases = (
+				3BE2C2023B24B7C26F376B46 /* [CP] Check Pods Manifest.lock */,
 				09338F381D5B890B003021F2 /* Sources */,
 				09338F391D5B890B003021F2 /* Frameworks */,
 				09338F3A1D5B890B003021F2 /* Resources */,
+				AA9627AC11D2F017F6777AE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09338F2B1D5B890B003021F2 /* LaunchScreen.storyboard in Resources */,
+				097BC6DD1D6202DD00D4EE8A /* GoogleService-Info.plist in Resources */,
 				09338F281D5B890B003021F2 /* Assets.xcassets in Resources */,
 				09338F261D5B890B003021F2 /* Main.storyboard in Resources */,
 			);
@@ -251,11 +297,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ACE4E4E69210D3B2D5B4370 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Woke/Pods-Woke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BE2C2023B24B7C26F376B46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57A7087F37A65124CF2F6670 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6891E115D456352FA3D5880E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WokeTests/Pods-WokeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9627AC11D2F017F6777AE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WokeUITests/Pods-WokeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFCB65A2F4AB23D3DED43F0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Woke/Pods-Woke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B792E6D15E7B81614F90A991 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D117675543EBCDF8791BC46F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WokeTests/Pods-WokeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09338F191D5B890A003021F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09278CC11D60DFCE0054FF95 /* LogInViewController.swift in Sources */,
+				098514671D5D867400BA2BA5 /* SignUpPageViewController.swift in Sources */,
 				09338F231D5B890B003021F2 /* ViewController.swift in Sources */,
 				09338F211D5B890B003021F2 /* AppDelegate.swift in Sources */,
 			);
@@ -397,19 +568,24 @@
 		};
 		09338F461D5B890B003021F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2948129D289E87C146DFE216 /* Pods-Woke.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Woke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mecrevolutionaries.Woke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		09338F471D5B890B003021F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73B5A686A323F6BA7EA60CA /* Pods-Woke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Woke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mecrevolutionaries.Woke;
@@ -482,6 +658,7 @@
 				09338F471D5B890B003021F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09338F481D5B890B003021F2 /* Build configuration list for PBXNativeTarget "WokeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +667,7 @@
 				09338F4A1D5B890B003021F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09338F4B1D5B890B003021F2 /* Build configuration list for PBXNativeTarget "WokeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +676,7 @@
 				09338F4D1D5B890B003021F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

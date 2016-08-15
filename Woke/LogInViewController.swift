@@ -9,6 +9,16 @@
 import UIKit
 
 class LogInViewController: UIViewController {
+   
+    @IBAction func SignUpButtonTapped(sender: AnyObject) {
+        
+        //If button is tapped, go to next page
+        self.dismissViewControllerAnimated(true, completion: nil)
+        self.performSegueWithIdentifier("View controller name", sender: self)
+
+
+
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
